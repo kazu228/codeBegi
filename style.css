@@ -18,8 +18,22 @@ header h3 {
     margin: 0;
     padding-left: 30px;
     line-height: 70px;
+    float: left;
 }
 
 header span {
     color: rgb(192, 165, 13);
+}
+
+header ul {
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+    float: right;
+    font-size: 12px;
+    color: white;
+    padding: 0 15px;
+    line-height: 70px;
 }
