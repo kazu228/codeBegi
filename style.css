@@ -3,3 +3,17 @@ body {
     border: 1px solid red;
     height: 400px;
 }
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+header h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
