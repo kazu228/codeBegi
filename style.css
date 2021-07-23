@@ -55,3 +55,26 @@ header a:hover {
     background-image: url(image/top-image.jpg);
     background-size: cover;
 }
+
+.top-filter {
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+
+}
+
+.top-message {
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.top-message h3 {
+    color: white;
+    font-size: 65px;
+    margin: 0;
+}
+.top-message p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
