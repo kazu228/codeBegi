@@ -52,5 +52,47 @@ header a:hover {
 
 .top-wrap {
     height: 700px;
+    background-image: url(image/top-image.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.top-filter {
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+
+}
+
+.top-message {
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.top-message h3 {
+    color: white;
+    font-size: 65px;
+    margin: 0;
+}
+.top-message p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icons a {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+.icons a:hover {
+    opacity: 1.0;
     
 }
