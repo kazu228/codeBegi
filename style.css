@@ -4,6 +4,10 @@ body {
     height: 400px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     height: 70px;
     width: 100%;
@@ -33,7 +37,14 @@ header li {
     list-style: none;
     float: right;
     font-size: 12px;
-    color: white;
     padding: 0 15px;
     line-height: 70px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    opacity: 0.7;
 }
