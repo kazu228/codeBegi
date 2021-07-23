@@ -52,5 +52,6 @@ header a:hover {
 
 .top-wrap {
     height: 700px;
-    
+    background-image: url(image/top-image.jpg);
+    background-size: cover;
 }
