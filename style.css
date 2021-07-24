@@ -126,6 +126,10 @@ header a:hover {
     position: absolute;
     top: 5px;
     right: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: burlywood;
+    padding: 5px;
 }
 
 .service-box img {
