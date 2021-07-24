@@ -157,3 +157,29 @@ header a:hover {
     padding-bottom: 20px;
     font-size: 13px;
 }
+
+
+.contact-wrap {
+    height: 400px;
+    background-color: rgb(184, 110, 19);
+    
+}
+
+.contact-wrap {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-wrap a {
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    line-height: 400px;
+    padding: 20px 50px;
+    transition: 0.5s;
+}
+
+.contact-wrap a:hover {
+    color: rgb(184, 110, 19);
+    background-color: white;
+}
