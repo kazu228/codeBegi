@@ -124,6 +124,7 @@ header a:hover {
 
 .service-box img {
     width: 100%;
+    transition: 0.5s;
 }
 
 .service-box img:hover {
