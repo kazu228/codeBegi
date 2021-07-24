@@ -120,6 +120,12 @@ header a:hover {
     width: 29%;
     margin: 0 15px;
     background-color: bisque;
+    position: relative;
+}
+.service-box span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 .service-box img {
