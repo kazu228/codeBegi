@@ -13,6 +13,10 @@ header {
     width: 100%;
     background-color: black;
     opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 header h3 {
@@ -54,6 +58,7 @@ header a:hover {
     height: 700px;
     background-image: url(image/top-image.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .top-filter {
@@ -77,4 +82,84 @@ header a:hover {
     font-size: 25px;
     margin: 0;
 }
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icons a {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+.icons a:hover {
+    opacity: 1.0;
+}
+
+
+.service-wrap > h3 {
+    font-size: 40px;
+    padding: 80px 0 40px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+}
+
+.service-box {
+    width: 29%;
+    margin: 0 15px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.service-box span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.service-box img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.service-box h3, p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-box h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.service-box p {
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.service-box img:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
 
