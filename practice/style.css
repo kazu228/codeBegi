@@ -116,6 +116,18 @@ header a:hover {
     width: 29%;
     margin: 0 15px;
     background-color: antiquewhite;
+    position: relative;
+}
+
+.service-box span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .service-box img {
