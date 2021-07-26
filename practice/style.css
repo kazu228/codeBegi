@@ -100,7 +100,14 @@ header a:hover {
     opacity: 1.0;
 }
 
+.service-wrap {
+    text-align: center;
+}
 
+.service-wrap h3 {
+    font-size: 40px;
+    padding: 80px 0 40px;
+}
 
 
 
