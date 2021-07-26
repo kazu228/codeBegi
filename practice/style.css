@@ -54,6 +54,7 @@ header a:hover {
     height: 700px;
     background-image: url(image/top-image.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .top-filter {
@@ -77,4 +78,34 @@ header a:hover {
     font-size: 25px;
     margin: 0;
 }
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icons a {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+.icons a:hover {
+    opacity: 1.0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
