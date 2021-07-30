@@ -41,8 +41,14 @@ header li {
 header a {
     color: white;
     display: block;
+    padding: 0 15px;
 }
 
 header a:hover {
     opacity: 0.7;
+}
+
+.top-wrap {
+    height: 700px;
+    
 }
