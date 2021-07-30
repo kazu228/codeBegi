@@ -54,6 +54,11 @@ header a:hover {
     background-size: cover;
 }
 
+.top-filter {
+    height: 100%;
+    background-color: rgba(red, green, blue, 0.3);
+}
+
 .top-message {
     padding-top: 200px;
     padding-left: 50px;
