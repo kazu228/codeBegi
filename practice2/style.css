@@ -40,6 +40,7 @@ header li {
 
 header a {
     color: white;
+    display: block;
 }
 
 header a:hover {
