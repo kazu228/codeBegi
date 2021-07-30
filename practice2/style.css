@@ -117,9 +117,24 @@ header a:hover {
 
 .service-box img {
     width: 100%;
+    transition: .5s;
+}
+
+.service-box img:hover {
+    opacity: 0.7;
 }
 
 .service-box h3, p {
     width: 80%;
     margin: 0 auto;
+}
+
+.service-box h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.service-box p {
+    padding-bottom: 20px;
+    font-size: 13px;
 }
