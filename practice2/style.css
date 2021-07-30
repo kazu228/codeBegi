@@ -55,7 +55,18 @@ header a:hover {
 }
 
 .top-message {
-    height: 250px;
-    width: 700px;
-    background-color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.top-message h3 {
+    color: white;
+    font-size: 65px;
+    margin: 0;
+}
+
+.top-message p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
 }
