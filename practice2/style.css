@@ -9,3 +9,10 @@ header {
     background-color: black;
     opacity: 0.3;
 }
+
+header h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
