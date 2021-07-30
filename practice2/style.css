@@ -154,6 +154,20 @@ header a:hover {
 .contact-wrap {
     height: 400px;
     background-color: antiquewhite;
-
+    text-align: center;
+    margin-top: 80px;
 }
 
+.contact-wrap a {
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    line-height: 400px;
+    padding: 20px 50px;
+    transition: .5s;
+}
+
+.contact-wrap a:hover {
+    color: antiquewhite;
+    background-color: white;
+}
