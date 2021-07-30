@@ -138,6 +138,7 @@ header a:hover {
 .service-box h3, p {
     width: 80%;
     margin: 0 auto;
+    color: black;
 }
 
 .service-box h3 {
