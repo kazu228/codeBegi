@@ -14,4 +14,10 @@ header h3 {
     color: white;
     font-weight: normal;
     margin: 0;
+    padding-left: 30px;
+    line-height: 70px;
+}
+
+header span {
+    color: gold;
 }
